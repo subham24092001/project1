@@ -1,0 +1,14 @@
+.stats-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  row-gap: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .stats-container {
+    flex-direction: column;
+  }
+}
